@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: Red;
+    
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+    
+}
+input[type=text],input[type=number] ,select{
+	width: 40%;
+	padding: 10px 18px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;;
+	box-sizing: border-box;
+	color:cacaca;
+}
+
+.container {
+	padding: 10px 18px;
+	background-color: #f1f1f1;
+	text-align: center;
+	border: 10px solid #cc;
+	margin:80px 100px;
+}
+
+
+
+</style>
+</head>
+<body class="container">
+<h1>Sells Book</h1>
+
+<p>Select Book type<br><select name="Select book ">  
+<option>JAVA</option>  
+<option>C</option> 
+<option>C++</option> 
+<option>JEE</option>
+<option>MySql</option>  
+<option>Angular-JS</option> 
+<option>php</option> 
+<option>.net</option>  
+<option>PHYTHON</option> 
+ <option>HTML AND CSS</option> 
+<option>BootStrap</option>  
+</select></p> 
+
+<p>Enter Author Name<br> <input type="text" name="author" placeholder="Enter the author name of book"></p>
+<p>Enter Edition<br> <input type="text" name="edition" placeholder="Enter Edition of the book"></p>
+<P>Enter your Base Price<br><input type="number" name="price" placeholder="Enter price"></p>
+<input type="submit"  value="Submit" style=color:green> &nbsp &nbsp
+<input type="reset"    value="Reset" style=color:red >
+
+
+</body>
+</html>

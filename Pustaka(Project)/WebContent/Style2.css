@@ -1,0 +1,91 @@
+div.container {
+    width: 101%;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    background-color: white;
+    
+}
+
+div .image
+{
+	text-align: center;
+	margin-top: 1px;
+} 
+
+header
+{
+    padding: 1em;
+    color: white;
+    
+    clear: left;
+    text-align: center;
+}
+h1
+{
+	color:black; ;
+	margin-top:5px;
+	margin-left: 2px;
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 33px;
+}
+
+.home-btn
+{
+	position: relative;
+	float: right;
+	margin-top: -13px;
+	margin-right: 85px;
+	font-weight:  bolder;
+	font-size: 20px
+	
+}
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+    background-image: url("img/header.jpg"); 
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+button {
+	align : center;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-weight:bolder;
+  outline: 0;
+  background:blue;
+  border: 0;
+  padding: 13px;
+  color: #FFFFFF;
+  font-size: 12px;
+  cursor:pointer;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 5em;
+    overflow: hidden;
+    background-image: url("img/slider/public-library.jpg");
+}
+
+footer
+{
+	font-weight:bolder;
+    padding: 1em;
+    color:black;
+    background-color:#E6E6FA;
+    clear: left;
+    text-align: center;
+}
