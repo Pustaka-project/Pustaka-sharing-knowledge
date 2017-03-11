@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+<head>
+<title>
+Sign-In</title></head>
 <style>
 /* Full-width input fields */
 input[type=text], input[type=password] {
@@ -60,16 +63,15 @@ span.psw {
 /* The Modal (background) */
 .modal {
 	display: none; /* Hidden by default */
-	position: fixed; /* Stay in place */
+	position:relative; /* Stay in place */
 	z-index: 1; /* Sit on top */
-	left: 0;
-	top: 0;
 	width: 100%; /* Full width */
-	height: 100%; /* Full height */
+	height: 200%; /* Full height */
 	overflow: auto; /* Enable scroll if needed */
 	background-image: url("img/header.jpg");
+	
 	/* Black w/ opacity */
-	padding-top: 60px;
+	
 }
 
 /* Modal Content/Box */
@@ -133,14 +135,31 @@ to {
 		width: 100%;
 	}
 }
+
+body
+{
+background-image: url("img/header.jpg");
+width: 100%;
+height: 100%;
+
+}
+footer
+{
+	font-weight:bolder;
+    padding: 1em;
+    color:white;
+    background-color:maroon;
+    clear: left;
+    text-align: center;
+}
 </style>
-<body>
+<body background="img/header.jpg">
 
 	
 
 	<div>
 
-		<form class="modal-content animate" action="">
+		<form class="modal-content animate" action="validate" method="post">
 			<div class="imgcontainer">
 				<span onclick="document.getElementById('id01').style.display='none'"
 					class="close" title="Close Modal">&times;</span> <img
@@ -154,7 +173,7 @@ to {
 				<label><b>Password</b></label> <br> <input type="password"
 					placeholder="Enter Password" name="psw" required>
 
-				<button type="submit">Login</button>
+				<button type="submit">Login</button></a>
 
 			</div>
 			<br> <input type="checkbox" checked="checked"> Remember
@@ -165,9 +184,10 @@ to {
 				<button type="button"
 					onclick="document.getElementById('id01').style.display='none'"
 					class="cancelbtn">Cancel</button>
-				<span class="psw">Forgot <a href="forgotPassword.html">password?</a></span>
+				<span class="psw">Forgot <a href="ForgotPassword.html">password?</a></span>
 			</div>
 		</form>
+		<footer>Copyright &copy; <u>Pustaka</u> .Inc</footer>
 	</div>
 
 	<script>
